@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-12:48:08	26/26	---M--	200	added ('OK')	text/plain	date:Thu,%2004%20Oct%202018%2004:48:06%20GMT	http://www.kitchenware-plus.com.au/robots.txt		(from )
-12:48:09	18408/18408	---MC-	200	added ('OK')	text/html	date:Thu,%2004%20Oct%202018%2004:48:07%20GMT	http://www.kitchenware-plus.com.au/	C:/Users/SEO/Downloads/kitchenware-plus/www.kitchenware-plus.com.au/index.html	(from )
