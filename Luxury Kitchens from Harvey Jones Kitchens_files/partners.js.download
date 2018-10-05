@@ -1,0 +1,55 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 7:19:31 Oct 5, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 7:19:32 Oct 5, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+window._oiqq = window._oiqq || [];
+_oiqq.push(['oiq_addPageCat','Media']);
+_oiqq.push(['oiq_addPageLifecycle', 'inte']);
+_oiqq.push(['oiq_doTag']);
+
+(function() {
+    var oiq = document.createElement('script'); oiq.type = 'text/javascript'; oiq.async = true;
+    oiq.src = document.location.protocol + '//px.owneriq.net/stas/s/sholic.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oiq, s);
+})();
+
+
+(function() {
+    var simplifi = document.createElement('script');
+    simplifi.async = true;
+    simplifi.src = '/save/https://i.simpli.fi/dpx.js?cid=66111&m=0&sifi_tuid=37828&referrer=https%3A%2F%2Fweb.archive.org%2Fweb%2F20170520122736%2Fhttp%3A%2F%2Fwww.harveyjones.com%3A80%2Fkitchens';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(simplifi, s);
+})();
+
+(function (w,d,t) {
+  _ml = w._ml || {};
+  _ml.nq = w._ml.nq || [];
+  _ml.nq.push(['track', '51840']);
+  var s, cd, tag; s = d.getElementsByTagName(t)[0]; cd = new Date();
+  tag = d.createElement(t); tag.async = 1;
+  tag.src = '/save/https://ml314.com/taglw.aspx?' + cd.getDate() + cd.getMonth();
+  s.parentNode.insertBefore(tag, s);
+})(window,document,'script');
+var _comscore = _comscore || [];
+_comscore.push({ c1: "7", c2: "19376307" ,c3: "1" });
+(function() {
+  var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+  s.src = (document.location.protocol == "https:" ? "/save/https://sb" : "/save/http://b") + ".scorecardresearch.com/beacon.js";
+  el.parentNode.insertBefore(s, el);
+})();
+
+(function(){try{var s,w=window.top;w.Tynt=w.Tynt||[];
+w.Tynt.push('sh!sh');s=w.document.createElement('script');
+s.src='/save/https://cdn.tynt.com/afsh.js';
+(w.document.getElementsByTagName('head')[0]).appendChild(s);}catch(e){}})();
+
