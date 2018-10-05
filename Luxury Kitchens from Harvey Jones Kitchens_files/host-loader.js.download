@@ -1,0 +1,25 @@
+(function(){if(window.mfesecure_loaded){return}window.mfesecure_loaded=true;try{var a=document.createElement("script");a.setAttribute("type","text/javascript");
+a.setAttribute("src","//web.archive.org/web/20170830063601/https://cdn.ywxi.net/js/host.js?v=20170825100200754219&h=web.archive.org");document.getElementsByTagName("head")[0].appendChild(a)
+}catch(b){}})();(function(){try{var a=document.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("src","https://web.archive.org/web/20170830063601/https://cdn.trustedsite.com/js/host-loader.js?h=web.archive.org");
+document.getElementsByTagName("head")[0].appendChild(a)}catch(b){}})();
+/*
+     FILE ARCHIVED ON 06:36:01 Aug 30, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:19:23 Oct 05, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 239.873 (3)
+  esindex: 0.006
+  captures_list: 252.714
+  CDXLines.iter: 10.442 (3)
+  PetaboxLoader3.datanode: 86.091 (4)
+  exclusion.robots: 0.142
+  exclusion.robots.policy: 0.131
+  RedisCDXSource: 0.442
+  PetaboxLoader3.resolve: 104.439 (2)
+  load_resource: 86.078
+*/

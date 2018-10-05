@@ -1,0 +1,110 @@
+﻿////////////////////////////////////////////////////////
+//  Created by: Army
+//  Date: 25/07/2014
+//  Description: Image width and height adjuster plugin 
+//               to use with UploadServer and unveil.js
+//               for responsive sites
+//  Prerequisite: Unveil.Js (include file before call)
+////////////////////////////////////////////////////////
+; (function($) {
+
+    // Plugin definition.
+    $.fn.imgAdjuster = function(options) {
+
+        var defaults = {
+            maxWidth: 1040     //  The default maximum width of a full screen image
+        };
+
+        var settings = $.extend({}, defaults, options);
+
+        var retina = false;
+        try {
+            retina = window.devicePixelRatio > 1;
+        } catch (err) { }
+        var dataAttr = retina ? "data-src-retina" : "data-src";
+        var imgUrl = '';
+        var imgWidth = -1;
+        var imgHeight = -1;
+        var windowWidth = $(window).width();
+
+        var newImgWidth = -1;
+        var newImgHeight = -1;
+
+        var imgWidthPattern = '/upload/(.*?)/.*?$';
+        var imgHeightPattern = '/upload/.*?/(.*?)/.*?$';
+        var imgUrlSuffix = '';
+        var imgUrlSuffixPattern = 'auto(/.+?/.+?)$';
+
+        var imgWidthPatternStandard = '/upload.aspx.*?width=(.*?)&.*?$';
+        var imgHeightPatternStandard = '/upload.aspx.*?height=(.*?)&.*?$';
+        var imgUrlSuffixPatternStandard = '/upload.aspx.*?crop=(.*?)$';
+        return this.each(function () {
+
+            if (windowWidth < settings.maxWidth) {
+                var $this = $(this);
+                //  Get the original data-src attribute
+                imgUrl = $this.attr(dataAttr);
+                if (imgUrl != undefined) {
+                    //  Get width and height of the image with RegEx
+                    var isStandard = false
+                    try {
+                        imgWidth = parseInt(imgUrl.match(imgWidthPattern)[1]);
+                        imgHeight = parseInt(imgUrl.match(imgHeightPattern)[1]);
+                        imgUrlSuffix = "&crop=" + imgUrl.match(imgUrlSuffixPattern)[0];
+                    } catch (err) {
+                        imgWidth = 0;
+                        imgHeight = 0;
+                        imgUrlSuffix = '';
+                    }
+                    if (imgWidth == 0) {
+                        try {
+                            imgWidth = parseInt(imgUrl.match(imgWidthPatternStandard)[1]);
+                            imgHeight = parseInt(imgUrl.match(imgHeightPatternStandard)[1]);
+                            imgUrlSuffix = imgUrl.match(imgUrlSuffixPatternStandard)[1];
+                        } catch (err) {
+                            imgWidth = 0;
+                            imgHeight = 0;
+                            imgUrlSuffix = '';
+                        }
+                        isStandard = true
+                    }
+                    //  Calculate new width and height based on window size
+                    newImgWidth = parseInt(windowWidth * (retina ? 2 : 1));
+                    newImgHeight = parseInt(windowWidth / imgWidth * imgHeight * (retina ? 2 : 1));
+
+                    //  Set new width and height
+                    var newImgUrl = '/upload/' + newImgWidth + '/' + newImgHeight + '/' + imgUrlSuffix;
+                    if (isStandard) {
+                        var newImgUrl = '/upload.aspx?width=' + newImgWidth + '&height=' + newImgHeight + '&crop=' + imgUrlSuffix;
+                    }
+                    //newImgUrl = imgUrl;
+                    $this.attr('src', newImgUrl);
+                }
+            } else {
+                //  Lazy-load image:
+                $(this).unveil();
+            }
+        });
+    };
+})(jQuery);
+/*
+     FILE ARCHIVED ON 01:15:26 May 27, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:19:12 Oct 05, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 67.952 (3)
+  esindex: 0.018
+  captures_list: 96.088
+  CDXLines.iter: 14.802 (3)
+  PetaboxLoader3.datanode: 117.639 (5)
+  exclusion.robots: 0.138
+  exclusion.robots.policy: 0.128
+  RedisCDXSource: 9.413
+  PetaboxLoader3.resolve: 268.98 (2)
+  load_resource: 365.987
+*/
