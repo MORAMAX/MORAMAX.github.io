@@ -633,6 +633,24 @@
     
 </form>
 
+	<style>
+	@keyframes slideInFromRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+form {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 0.4s ease-out 0s 1 slideInFromRight;
+  
+
+}
+	</style>
+	
 <script src="instantclick.min.js" data-no-instant></script>
 <script data-no-instant>InstantClick.init();</script>
 </body>
