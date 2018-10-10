@@ -1,0 +1,753 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    
+    <link href="/HarveyJones.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css" />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> 
+</head>
+
+<body>
+<form name="ctl00" method="post" action="transport.aspx?404%3bhttp%3a%2f%2fwww.harveyjones.com%3a80%2fimages%2fpictures%2fside%2f_yk_red_apple_greencupboard.jpg" id="ctl00">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPaA8FDzhkMjhiOGMwYzllMTQzMGTRWbJYq1/lcFrpn/Tgjzi8gCLVuQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl00'];
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBwLOpOXHDAKD75S2BQLJjJHmDwLjkN7ECgLetsOWBwL1zdCoCgKw/OKeDagKobkwTpOiCDfsGdV3G5of4sF1" />
+</div>
+
+    <!-- Background Image -->
+    
+
+
+
+
+<script type="text/javascript">
+
+    //$(window).load(function () {
+
+    //    var theWindow = $(window),
+    //        $bg = $(".background-image img"),
+    //        aspectRatio = $bg.width() / $bg.height();
+
+    //    function resizeBg() {
+
+    //        if ((theWindow.width() / theWindow.height()) < aspectRatio) {
+    //            $bg
+    //                .removeClass()
+    //                //.addClass('bgheight');
+    //                .addClass('bgwidth');
+                
+    //        } else {
+    //            $bg
+    //                .removeClass()
+    //                //.addClass('bgwidth');
+    //                .addClass('bgheight');
+    //        }
+
+    //        $(".background-image").show();
+
+    //    }
+
+    //    theWindow.resize(resizeBg).trigger("resize");
+
+    //});
+
+</script>
+
+<div class='background-image left'><img id="ucbackgroundimage_imgRandom1" class="bgheight" src="/images_bg/Website%20background%202%20bw.jpg" alt="Harvey Jones Kitchens" style="border-width:0px;" /></div>
+<div class='background-image right'><img id="ucbackgroundimage_imgRandom2" class="bgheight" src="/images_bg/Website%20background%206%20bw.jpg" alt="Harvey Jones Kitchens" style="border-width:0px;" /></div>
+    <!-- END Background Image -->
+
+	<!-- HEADER -->
+    
+
+
+<script type="text/javascript">
+
+    $(function() {
+
+        // show the first image on load
+        $(".telephone").children("a").eq(0).show();
+
+        // start the rotation by fading out the current image
+        setTimeout(fadeOutImage, 5000);
+
+    });
+
+    var idx = 0;
+    function changeImage() {
+
+        // fade in the new image
+        $(".telephone").children("a").eq(idx).fadeIn(2000, function() {
+
+            setTimeout(fadeOutImage, 5000);
+
+        });
+
+    }
+
+    function fadeOutImage() {
+
+        if (idx <= $(".telephone").children("a").length - 1) {
+
+            // fade out the image
+            $(".telephone").children("a").eq(idx).fadeOut(500, function() {
+
+                // set new index
+                idx +=1;
+                if (idx > $(".telephone").children("a").length - 1) {
+                    idx = 0;
+                }
+
+                // fade in the new image
+                changeImage()
+
+            });   
+
+        }
+
+    }
+
+</script>
+
+<div class="headerwrap">
+    <div class="header">
+        <div class="logo">
+            <a href="/" title="To Homepage >>">
+                <img src="/images/HarveyJones.png" alt="Harvey Jones Kitchens | To Homepage >>" title="Harvey Jones Kitchens | To Homepage >>" width="330" />
+            </a>
+        </div>
+        <div class="telephone">
+            <a href='http://www.harveyjones.com/request-a-brochure/contact-us' title='Harvey Jones Kitchens' style='display: none'><img src='/uploads/images/header/Untitled-21.jpg' alt='Harvey Jones Kitchens' title='Harvey Jones Kitchens' /></a>
+<a href='http://www.harveyjones.com/blogs/summer-sale-now-on-great-savings-on-all-of-our-furniture' title='Harvey Jones Kitchens' style='display: none'><img src='/uploads/images/header/July_2015.jpg' alt='Harvey Jones Kitchens' title='Harvey Jones Kitchens' /></a>
+
+        </div>
+
+        <div class="hgroup">
+            <ul>
+                <li><i class="ic-phone"><span></span></i></li>
+                <li><i class="ic-menu"><span>menu</span></i></li>
+            </ul>
+        </div>
+        
+        <div class="clearFloat"></div>
+    </div>
+</div>
+<div id="phoneBox">
+    <span>Phone: 0800 389 6938</span>
+</div>
+    <!-- END HEADER -->
+    
+    <!-- MAIN NAV -->
+    <div id="ucMainNav_mainMenuWrap" class="mainMenuWrap ">
+    <div class="mainMenu">
+        
+        <ul id="mainNav">
+            
+                    <li class='mn_about dropdown'>
+                    
+                       <a href="/about-us" title="About Us" accesskey="1">About Us</a>
+                    
+                        
+        
+                        <!-- sub menu items-->
+                        <ul class='dropdownList '><li class='mobileonly'><a href='/about-us' title='About Us'>About Us</a></li>
+                        
+                            <li><a href="/about-us/our-workshop/" title="Our Workshop">Our Workshop</a></li>
+                        
+                        
+                        
+                            <li><a href="/about-us/environment/" title="Environment">Environment</a></li>
+                        
+                        
+                        
+                            <li><a href="/about-us/testimonials-reviews/" title="Testimonials">Testimonials</a></li>
+                        
+                        
+                        
+                            <li><a href="/about-us/careers/" title="Work With Us">Work With Us</a></li>
+                        
+                        </ul>
+                        <!-- // -->
+                    
+                    </li>
+                
+                    <li class='mn_why dropdown'>
+                    
+                       <a href="/why-harvey-jones" title="Why Harvey Jones?" accesskey="3">Why Harvey Jones?</a>
+                    
+                        
+        
+                        <!-- sub menu items-->
+                        <ul class='dropdownList HJ'><li class='mobileonly'><a href='/why-harvey-jones' title='Why harvey Jones'>Why Harvey Jones</a></li>
+                        
+                            <li><a href="/why-harvey-jones/were-built-on-quality/" title="We're built on quality">We're built on quality</a></li>
+                        
+                        
+                        
+                            <li><a href="/why-harvey-jones/bespoke-kitchens/" title="Bespoke">Bespoke</a></li>
+                        
+                        
+                        
+                            <li><a href="/why-harvey-jones/colour/" title="Colour">Colour</a></li>
+                        
+                        
+                        
+                            <li><a href="/why-harvey-jones/installation/" title="Installation">Installation</a></li>
+                        
+                        
+                        
+                            <li><a href="/why-harvey-jones/guarantee/" title="Guarantee">Guarantee</a></li>
+                        
+                        
+                        
+                            <li><a href="/why-harvey-jones/your-kitchen-design/" title="Your Kitchen Design">Your Kitchen Design</a></li>
+                        
+                        </ul>
+                        <!-- // -->
+                    
+                    </li>
+                
+                    <li class='mn_kitchens dropdown'>
+                    
+                       <a href="/kitchens" title="Our Kitchens" accesskey="4">Our Kitchens</a>
+                    
+                        <ul class='dropdownList kitchens'><li><a href='/kitchens' title='Our Kitchens'>Our Kitchens</a></li><li><a href='/our-kitchens/shaker-kitchens' title='Shaker Kitchens'>Shaker Kitchens</a></li><li><a href='/our-kitchens/linear-kitchens' title='Linear Kitchens'>Linear Kitchens</a></li><li><a href='/our-kitchens/original-kitchens' title='Original Kitchens'>Original Kitchens</a></li><li><a href='/our-kitchens/extras' title='Extras'>Extras</a></li></ul>
+        
+                        <!-- sub menu items-->
+                        
+                        <!-- // -->
+                    
+                    </li>
+                
+                    <li class='mn_videos'>
+                    
+                       <a href="/videos" title="Videos" accesskey="5">Videos</a>
+                    
+                        
+        
+                        <!-- sub menu items-->
+                        
+                        <!-- // -->
+                    
+                    </li>
+                
+                    <li class='mn_blog dropdown'>
+                    
+                       <a href="/blogs" title="Our Blog" accesskey="2">Our Blog</a>
+                    
+                        <ul class='dropdownList blog'><li><a href='/blogs' title='Our Blog'>Our Blog</a></li><li><a href='/blogs/inspiration-and-advice' title='Inspiration and Advice'>Inspiration and Advice</a></li><li><a href='/blogs/press-articles' title='Press Articles'>Press Articles</a></li><li><a href='/blogs/company-news' title='Company News'>Company News</a></li><li><a href='/blogs/latest-projects' title='Latest Projects'>Latest Projects</a></li></ul>
+        
+                        <!-- sub menu items-->
+                        
+                        <!-- // -->
+                    
+                    </li>
+                
+                    <li class='mn_showrooms'>
+                    
+                       <a href="/our-showrooms" title="Showrooms" accesskey="6">Showrooms</a>
+                    
+                        <ul class='dropdownList showrooms'><li class='mobileonly'><a href='/our-showrooms' title='Showrooms'>Showrooms</a></li><li><a href='/our-showrooms/bath' title='Bath'>Bath</a></li><li><a href='/our-showrooms/battersea' title='Battersea'>Battersea</a></li><li><a href='/our-showrooms/bournemouth' title='Bournemouth'>Bournemouth</a></li><li><a href='/our-showrooms/brentwood' title='Brentwood'>Brentwood</a></li><li><a href='/our-showrooms/bristol' title='Bristol'>Bristol</a></li><li><a href='/our-showrooms/cambridge' title='Cambridge'>Cambridge</a></li><li><a href='/our-showrooms/cardiff' title='Cardiff'>Cardiff</a></li><li><a href='/our-showrooms/cheltenham' title='Cheltenham'>Cheltenham</a></li><li><a href='/our-showrooms/chester' title='Chester'>Chester</a></li><li><a href='/our-showrooms/chichester' title='Chichester'>Chichester</a></li><li><a href='/our-showrooms/chislehurst' title='Chislehurst'>Chislehurst</a></li><li><a href='/our-showrooms/edinburgh' title='Edinburgh'>Edinburgh</a></li><li><a href='/our-showrooms/fulham' title='Fulham'>Fulham</a></li><li><a href='/our-showrooms/glasgow' title='Glasgow'>Glasgow</a></li><li><a href='/our-showrooms/guildford' title='Guildford'>Guildford</a></li><li><a href='/our-showrooms/hampstead' title='Hampstead'>Hampstead</a></li><li><a href='/our-showrooms/harrogate' title='Harrogate'>Harrogate</a></li><li><a href='/our-showrooms/hove' title='Hove'>Hove</a></li><li><a href='/our-showrooms/islington' title='Islington'>Islington</a></li><li><a href='/our-showrooms/leamington-spa' title='Leamington Spa'>Leamington Spa</a></li><li><a href='/our-showrooms/marlow' title='Marlow'>Marlow</a></li><li><a href='/our-showrooms/milton-keynes' title='Milton Keynes'>Milton Keynes</a></li><li><a href='/our-showrooms/notting-hill' title='Notting Hill'>Notting Hill</a></li><li><a href='/our-showrooms/nottingham' title='Nottingham'>Nottingham</a></li><li><a href='/our-showrooms/oxford' title='Oxford'>Oxford</a></li><li><a href='/our-showrooms/sheen' title='Sheen'>Sheen</a></li><li><a href='/our-showrooms/st-albans' title='St. Albans'>St. Albans</a></li><li><a href='/our-showrooms/tunbridge-wells' title='Tunbridge Wells'>Tunbridge Wells</a></li><li><a href='/our-showrooms/wilmslow' title='Wilmslow'>Wilmslow</a></li><li><a href='/our-showrooms/winchester' title='Winchester'>Winchester</a></li><li><a href='/our-showrooms/worcester' title='Worcester'>Worcester</a></li></ul>
+        
+                        <!-- sub menu items-->
+                        
+                        <!-- // -->
+                    
+                    </li>
+                
+                    <li class='mn_brochure dropdown'>
+                    
+                       <a href="/request-a-brochure" title="Request a Brochure" accesskey="7">Request a Brochure</a>
+                    
+                        
+        
+                        <!-- sub menu items-->
+                        <ul class='dropdownList brochure'><li><a href='/request-a-brochure' title='Request a Brochure'>Request a Brochure</a></li>
+                        
+                            <li><a href="/request-a-brochure/request-an-appointment/" title="Request An Appointment">Request An Appointment</a></li>
+                        
+                        
+                        
+                            <li><a href="/request-a-brochure/contact-us/" title="Contact Us">Contact Us</a></li>
+                        
+                        </ul>
+                        <!-- // -->
+                    
+                    </li>
+                
+        </ul>
+   
+        <div class="searchBox">
+            <div>
+                <span><input name="ucMainNav$txtSearch" type="text" id="ucMainNav_txtSearch" class="jsSearchInput" /></span>
+                <div class="goBtn">
+        	        <a id="ucMainNav_lbtnSearch" href="javascript:__doPostBack('ucMainNav$lbtnSearch','')">  </a>
+                </div>
+            </div>
+        </div>
+        
+      	<div class="clearFloat"></div>
+    </div>
+</div>
+
+
+<div class="clearFloat"></div>
+
+<script type="text/javascript">
+    $(function () {
+
+        $(".jsSearchInput").val("Search");
+
+        $(".jsSearchInput").bind("focusin", function () {
+            $(".jsSearchInput").val("");
+        });
+
+        $(".jsSearchInput").bind("focusout", function () {
+            if ($(".jsSearchInput").val() == "") {
+                $(".jsSearchInput").val("Search");
+            }
+        });
+
+        $(".jsSearchInput").bind("keypress", function (e) {
+            var searchtext = $(".jsSearchInput").val().replace(/[\s]/, "+");
+            if (searchtext == "") { searchtext = "SEARCH"; }
+            var code;
+            code = (e.keyCode ? e.keyCode : e.which);
+            if (code == 13) {
+                // force find to occur
+                if ($(".jsSearchInput").val().length > 0) {
+                    window.location.href = "/search/" + searchtext;
+                    e.preventDefault();
+                    return false;
+                } else {
+                    e.preventDefault();
+                    return false;
+                }
+            };
+
+        });
+
+    });
+    
+</script>
+    <!-- END MAIN NAV -->
+    
+<div class="outterWrapper">
+
+    <div class="mainContainer">
+    	<div class="leftContent">
+            <!-- SUBNAV -->
+        	
+
+<!-- sub nav -->
+
+<!-- // -->
+
+<!-- adboxes -->
+<div class="adBox guarantee">
+    <h2><a href='/why-harvey-jones/guarantee/' title='10 Year Guarantee'><span class="grey">10 Year</span>Guarantee</a></h2>
+    <p><a href='/why-harvey-jones/guarantee/' title='10 Year Guarantee'>We are proud of the kitchens we craft, and we know that they stand the test of time.</a></p>
+    <div class="clearFloat"></div>
+</div><div class="adBox">
+   <h2><a href="http://www.harveyjones.com/request-a-brochure" title="Request a Brochure" ><span class='grey'>Request a</span> Brochure</a></h2>
+   <p><a href="http://www.harveyjones.com/request-a-brochure" title="Request a Brochure" >Browse through our exclusive brochure and picture yourself in your new unique kitchen.</a></p>
+   <div class="clearFloat"></div>
+</div>
+
+<div class="adBox">
+    <h2><span class="grey">Showroom</span>Finder</h2>
+    <p>Find the nearest showroom to you.</p>
+    <input name="ucSubNav$ctl01$txtFind" type="text" id="ucSubNav_ctl01_txtFind" class="finderInput jsFinderInput" />
+    <div class="linkBtn"><a id="ucSubNav_ctl01_lbtnFind" href="javascript:__doPostBack('ucSubNav$ctl01$lbtnFind','')">Find</a></div>
+    <div class="clearFloat"></div>
+</div>
+
+
+<script type="text/javascript">
+    $(function() {
+    
+        $(".jsFinderInput").val("Postcode");
+        
+        $(".jsFinderInput").bind("focusin", function() {
+            $(".jsFinderInput").val("");
+        });
+        
+        $(".jsFinderInput").bind("keypress", function(e) {
+            var code;
+            code = (e.keyCode ? e.keyCode : e.which);
+            if (code == 13) {
+                // force find to occur
+                if ($(".jsFinderInput").val().length > 0) {
+                    window.location.href = "/our-showrooms/?pc=" + $(".jsFinderInput").val();
+                    e.preventDefault();
+                    return false;
+                } else {
+                    e.preventDefault();
+                    return false;
+                }
+            };
+            
+        });
+        
+    });
+    
+</script>
+<!-- // -->
+
+            <!-- END SUBNAV -->
+        </div>
+        
+        <!-- MAIN CONTENT -->
+        <div class="mainContent">
+        	<img src="/images/404.png" class="imgRight plainImg" alt="404 error" title="404 error" />
+            <h1 style="float: none;"><span class="grey">404</span>Error</h1>
+            
+            <p>Oops! The page you are trying to access no longer exists. You can re-visit the homepage via the link below or continue using other links on this page.</p>
+        	<div class="btn"><a href="Index.aspx">Back to home page</a></div>
+        </div>
+        <!-- END MAIN CONTENT -->
+    </div>
+    
+    <!-- FOOTER -->
+    
+<div class="clearFloat"></div>
+
+<div class="footerContainer">
+    <div class="footerContent">
+        <div class="footerSection">
+            <div>
+                <h3><a href='/blogs' title='Our Blog'><span class='grey'>Our</span> Blog</a></h3>
+
+                
+                            <div class='section' onclick="javascript:location.href='/blogs/summer-sale-now-on-great-savings-on-all-of-our-furniture'" style='cursor:pointer'><a href='/blogs/summer-sale-now-on-great-savings-on-all-of-our-furniture' title='Summer Sale Now On! Great Savings On All Of Our Furniture'><img src='http://www.harveyjones.com/uploads/images/blog/tn_162.png' class='imgLeft' alt='Summer Sale Now On! Great Savings On All Of Our Furniture' width='50' /></a><h4>01/07/2015</h4><p><a href='/blogs/summer-sale-now-on-great-savings-on-all-of-our-furniture' title='Summer Sale Now On! Great Savings On All Of Our Furniture'>Summer Sale Now On! Great Savings On All Of Our Furniture</a></p><div class='clearFloat'></div></div>                    
+                    
+                            <div class='section' onclick="javascript:location.href='/blogs/what-do-you-want-from-your-kitchen-island'" style='cursor:pointer'><a href='/blogs/what-do-you-want-from-your-kitchen-island' title='What Do You Want From Your Kitchen Island?'><img src='http://www.harveyjones.com/uploads/images/blog/tn_159.png' class='imgLeft' alt='What Do You Want From Your Kitchen Island?' width='50' /></a><h4>20/05/2015</h4><p><a href='/blogs/what-do-you-want-from-your-kitchen-island' title='What Do You Want From Your Kitchen Island?'>What Do You Want From Your Kitchen Island?</a></p><div class='clearFloat'></div></div>                    
+                    
+                            <div class='section' onclick="javascript:location.href='/blogs/kitchen-planning--design-glossary'" style='cursor:pointer'><a href='/blogs/kitchen-planning--design-glossary' title='Kitchen Planning &amp; Design Glossary'><img src='http://www.harveyjones.com/uploads/images/blog/tn_153.png' class='imgLeft' alt='Kitchen Planning &amp; Design Glossary' width='50' /></a><h4>22/01/2015</h4><p><a href='/blogs/kitchen-planning--design-glossary' title='Kitchen Planning &amp; Design Glossary'>Kitchen Planning &amp; Design Glossary</a></p><div class='clearFloat'></div></div>                    
+                    
+            </div>
+        </div>
+        
+        <div class="footerSection">
+            <div>
+                <h3><a href='/about-us/testimonials-reviews/' title='Customer Reviews'><span class='grey'>Customer</span> Reviews</a></h3>
+
+                
+                        <div class='section'><p class='quote'>'We would like to express our gratitude to our kitchen designer for his extraordinary customer care, his attention to our vision and his significant contribution to us realising it.' </p><span>Mr H, East Sussex</span></div>               
+                    
+                        <div class='section'><p class='quote'>'The quality of advice and design received from our kitchen designer was head and shoulders above your competitors.  Thank you.'</p><span>Mr & Mrs F, Worcester</span></div>               
+                    
+                        <div class='section'><p class='quote'>'We have been both pleased and impressed with the attention to detail and the personal desire of all involved to get our bespoke kitchen absolutely right.' </p><span>Mr & Mrs W, Cheshire</span></div>               
+                    
+            </div>
+        </div>
+        
+        <div class="footerSection">
+            <div>
+                <h3><a href='/why-harvey-jones' title='Handmade Kitchens'><span class='grey'>Handmade</span> Kitchens</a></h3>
+            
+                
+                            <div class='section' onclick="javascript:location.href='/why-harvey-jones/were-built-on-quality'" style='cursor:pointer'><a href='/why-harvey-jones/were-built-on-quality' title='Handmade quality'><img src='http://www.harveyjones.com/uploads/images/footer/1.png' class='imgLeft' alt='Handmade quality' /></a><h4><a href='/why-harvey-jones/were-built-on-quality' title='Handmade quality'>Handmade quality</a></h4><p>The secret of our kitchen designs is that they are built using traditional framed construction… </p><div class='clearFloat'></div></div>           
+                    
+                            <div class='section' onclick="javascript:location.href='/why-harvey-jones/colour'" style='cursor:pointer'><a href='/why-harvey-jones/colour' title='We love colour'><img src='http://www.harveyjones.com/uploads/images/footer/2.png' class='imgLeft' alt='We love colour' /></a><h4><a href='/why-harvey-jones/colour' title='We love colour'>We love colour</a></h4><p>Your bespoke kitchen is a blank canvas and can be painted in any colour you choose… </p><div class='clearFloat'></div></div>           
+                    
+                            <div class='section' onclick="javascript:location.href='/why-harvey-jones/your-kitchen-design'" style='cursor:pointer'><a href='/why-harvey-jones/your-kitchen-design' title='How we work'><img src='http://www.harveyjones.com/uploads/images/footer/3.png' class='imgLeft' alt='How we work' /></a><h4><a href='/why-harvey-jones/your-kitchen-design' title='How we work'>How we work</a></h4><p>Find out how we’ll make your dream Original, Linear or Shaker kitchen become a reality… </p><div class='clearFloat'></div></div>           
+                               
+            </div>
+        </div>
+        <div class="clearFloat"></div>
+    </div>
+
+    <div>
+        <div class="footerAwards">
+            <div>
+                <a href="/our-kitchens/linear-kitchens/" title="House Beautiful Awards 2009"><img src="/images/footer_house_beautiful_awards_2009.png" alt="House Beautiful Awards 2009" title="House Beautiful Awards 2009" width="100" /></a>
+                <a href="/our-kitchens/linear-kitchens/" title="Grand Designs Awards 2009"><img src="/images/footer_grand_designs_award_2009.png" alt="Grand Designs Awards 2009" title="Grand Designs Awards 2009" width="60" /></a>
+                <a href="/our-kitchens/linear-kitchens/" title="House Beautiful Awards 2011"><img src="/images/footer_house_beatuiful_2011.png" alt="House Beautiful Awards 2011" title="House Beautiful Awards 2011" width="100" /></a>
+                <a href="/our-kitchens/linear-kitchens/" title="House Beautiful Awards 2013"><img src="/images/footer_house_beautiful_awards_2013.png" alt="House Beautiful Awards 2013" title="House Beautiful Awards 2013" width="100" /></a>
+                <a href="/blogs/harvey-jones-joins-the-furniture-ombudsman" title="The Furniture Ombudsman"><img src="/images/footer_TFOassociatelogo2.png" alt="The Furniture Ombudsman" title="The Furniture Ombudsman" width="125" /></a>
+        	    <a href="/harvey-jones/guarantee/" title="10 Year Guarantee"><img src="/images/footer_10_year_guarantee.png" alt="10 Year Guarantee" width="75" /></a>
+                <a href="/about-us/our-workshop/" title="Handmade in the UK"><img src="/images/footer_built_to_last.png" alt="Handmade in the UK" width="75" /></a>
+            </div>
+        </div>
+
+
+
+        <div class="footerShowroom">
+            <div>
+                <h2><span class="grey">Showroom</span>Finder</h2>
+                <p>Find the nearest showroom to you.</p>
+                <div class="showroomBox">
+                    <span><input name="ucFooter$txtFind" type="text" id="ucFooter_txtFind" class="finderInput jsFinderInputFooter" /></span>
+                    <div class="linkBtnWhite"><a id="ucFooter_lbtnFind" href="javascript:__doPostBack('ucFooter$lbtnFind','')">Find</a></div>
+                </div>
+                <div class="clearFloat"></div>
+            </div>
+        </div>
+
+
+        <div class="footerShare">
+            <div>
+                <ul>
+                	<li><a target="_blank" href="http://www.houzz.co.uk/pro/harveyjoneskitchens/harvey-jones-kitchens"><img src="http://st.houzz.com/static_en-GB/badge86_25.png" alt="Remodeling and Home Design" /></a></li>
+                    <li><a href="https://twitter.com/harveyjonesuk" title="Twitter" target="_blank" rel="nofollow"><img src="/images/social_twitter.png" alt="Follow us on Twitter" /></a></li>
+                    <li><a href="http://pinterest.com/harveyjonesuk/" title="Pinterest" target="_blank" rel="nofollow"><img src="/images/social_pinterest.png" alt="Follow us on Pinterest" /></a></li>
+                    <li><a href="https://www.facebook.com/harveyjoneskitchens" title="Facebook" target="_blank" rel="nofollow"><img src="/images/social_facebook.png" alt="Like us on Facebook" /></a></li>
+                    <li><a href="http://www.youtube.com/user/harveyjoneskitchens" title="YouTube" target="_blank" rel="nofollow"><img src="/images/social_youtube.png" alt="Watch us on YouTube" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearFloat"></div>
+    <div class="footer">
+        <div class="footerLeft">
+            <ul>
+                 <li>&copy; 2015 Copyright Harvey Jones Kitchens</li><li> | </li><li><a href="/about-us/" title="About Us">About Us</a></li>
+<li> | </li>
+<li><a href="/request-a-brochure/contact-us/" title="Contact Us">Contact Us</a></li>
+<li> | </li>
+
+                 <li><a href="/Accessibility.aspx" title="Accessibility" accesskey="a">Accessibility</a></li>
+                 <li> | </li>
+                 <li><a href="/How-we-use-cookies.aspx" title="How we use cookies" accesskey="a">How we use cookies</a></li>
+                 <li> | </li>
+                 <li><a href="/SiteMap.aspx" title="Site Map" accesskey="s">Site Map</a></li>
+                 <li> | </li>
+                 <li><a href="/about-us/careers/" title="Careers" accesskey="c">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footerRight">Website by <a href="http://www.mcmnet.co.uk/" title="MCM Net" target="_blank" rel="nofollow">MCM Net</a></div>
+        <div class="clearFloat"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/scripts/menuScript.js"></script>
+<script type="text/javascript" src="/scripts/jquery.cookie.plugin.min.js"></script>
+<script src="/scripts/jquery.collapser.min.js"></script>
+<script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js"></script>
+<script>
+	
+	//$('.open, .collapsible h1').collapser({
+//		target: 'next',
+//		targetOnly: 'ul, div',
+//		changeText: 0,
+//		expandHtml: '',
+//		collapseHtml: '',
+//		expandClass: '',
+//		collapseClass: 'close'
+//	});
+	
+	$('.open, .collapsible h1').collapser({
+			mode: 'block',
+			target: 'next',
+			effect: 'slide',
+			showClass: 'show',
+			hideClass: 'hide',
+			
+		});
+	
+    $(function () {
+        //check for cookiepolicy cookie - display message if not set
+        if ($.cookie('__cookiepolicy') == null) {
+            //prepend HTML to top of site, inside body
+            $('body').prepend('<div id=\'cookie-alert\'><div id=\'message\'> \
+			<div id=\'title\'><h6>Cookies on</h6><h6 class="white">harveyjones.com</h6></div> \
+			<p>This site uses cookies. Some may have been set already. Read about <a href=\'/How-we-use-cookies.aspx\' title=\' How we use cookies\'>how we use cookies</a>.<br/> \
+			Please click the button to accept our cookies. If you continue to use the site, we\'ll assume you\'re happy to accept the cookies anyway.  \
+			<button type=\'submit\' onclick=\"javascript:$(\'#cookie-alert\').delay(100).slideUp(600);\">Accept</button> \
+			</p></div></div>');
+            //set cookie value
+            $.cookie('__cookiepolicy', '1', { expires: 365 });
+            //rerun the typeface js
+            _typeface_js.renderDocument();
+            //display cookie alert
+            $('#cookie-alert').delay(200).slideDown(600);
+        }
+    });
+    
+</script>
+
+<script type="text/javascript">
+    $(function () {
+
+        $(".jsFinderInputFooter").val("Postcode");
+
+        $(".jsFinderInputFooter").bind("focusin", function () {
+            $(".jsFinderInputFooter").val("");
+        });
+
+        $(".jsFinderInputFooter").bind("keypress", function (e) {
+            var code;
+            code = (e.keyCode ? e.keyCode : e.which);
+            if (code == 13) {
+                // force find to occur
+                if ($(".jsFinderInputFooter").val().length > 0) {
+                    window.location.href = "/our-showrooms/?pc=" + $(".jsFinderInputFooter").val();
+                    e.preventDefault();
+                    return false;
+                } else {
+                    e.preventDefault();
+                    return false;
+                }
+            };
+
+        });
+
+    });
+    $(function () {
+        //check for cookiepolicy cookie - display message if not set
+        if ($.cookie('__popuprab') == null) {
+            $.cookie('__popuprab', 1, { expires: 31 });
+        } else {
+            var intCount = parseInt($.cookie('__popuprab'));
+            if (intCount <= 2) {
+                intCount += 1;
+                if (intCount == 3) {
+                    setTimeout(function () {
+                        $.fancybox({
+                            href: "/request-brochure-form.aspx",
+                            width: 780,
+                            height: 680,
+                            type: "iframe",
+                            titlePosition: 'inside',
+                            iframe : {
+                              preload : false
+                            },
+                            onClosed: function () {
+                                $('iframe').show();
+                            }
+                        });
+                        $.cookie('__popuprab', 100, { expires: 31 });
+                    }, 500);
+                } else {
+                    $.cookie('__popuprab', intCount, { expires: 31 });
+                }
+            }
+
+        }
+    });
+
+    $(".ic-menu").click(function () {
+        $("#mainNav").slideToggle();
+    });
+
+    $(".ic-phone").click(function () {
+        $("#phoneBox").slideToggle();
+    });
+
+    function recalculateBannerHeight() {
+        var banner = $("#banner");
+        banner.height($("#banner > ul > li:first-child").height());
+    }
+
+    window.onresize = function(event) {
+        recalculateBannerHeight();
+    };
+    window.onload = function() {
+        recalculateBannerHeight();
+        if ($(window).width() < 766) {
+            $("#mainNav").children("li").each(function () {
+                var el = $(this);
+                if (el.children("a").attr("href") !== "/videos") {
+                    el.children("a").removeAttr('href');
+                    el.css("cursor", "pointer");
+                    el.click(function () {
+                        el.children("ul").slideToggle(event);
+                    });
+                }
+            });
+        }
+    };
+
+</script>
+
+<!-- AdForm tracking -->
+<!-- Adform Tracking Code BEGIN -->
+<script type="text/javascript">
+    var _adftrack = {
+        pm: 307594,
+        divider: encodeURIComponent('|'),
+        pagename: encodeURIComponent('Harvey Jones')        
+    };
+    (function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://track.adform.net/serving/scripts/trackpoint/async/'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+
+</script>
+<noscript>
+    <p style="margin:0;padding:0;border:0;">
+        <img src="https://track.adform.net/Serving/TrackPoint/?pm=307594&amp;ADFPageName=Harvey+Jones&amp;ADFdivider=%7c" width="1" height="1" alt="" />
+    </p>
+</noscript>
+<!-- Adform Tracking Code END -->
+<!-- // -->
+<script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "Harvey Jones Kitchens",
+      "logo" : "http://www.harveyjones.com/images/harvey_jones_logo.png",
+      "url" : "http://www.harveyjones.com",
+      "sameAs" : [ "http://www.facebook.com/harveyjoneskitchens",
+        "http://www.twitter.com/harveyjonesuk",
+        "http://www.youtube.com/harveyjoneskitchens"] 
+    }
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+    (function () {
+        var shr = document.createElement('script');
+        shr.setAttribute('data-cfasync', 'false');
+        shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+        shr.type = 'text/javascript'; shr.async = 'true';
+        shr.onload = shr.onreadystatechange = function () {
+            var rs = this.readyState;
+            if (rs && rs != 'complete' && rs != 'loaded') return;
+            var site_id = 'd1f7ee29dd993fd73b2baab283d0f041';
+            try { Shareaholic.init(site_id); } catch (e) { }
+        };
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(shr, s);
+    })();
+//]]>
+</script>
+
+<script type="text/javascript">
+    var __lc = {};
+    __lc.license = 5809671;
+
+    (function () {
+        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+</script>
+    <!-- END FOOTER -->
+</div>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+﻿/*
+    A prefix of b = "banner"
+    A prefix of s = "scroller"
+    A prefix of n = "numeric"
+*/
+
+/* main banner styles */
+ul#bImages { margin: 0; padding: 0; position: absolute; }
+ul#bImages li { list-style: none; margin: 0; padding: 0; position: absolute; }
+ul#bImages li img { border: 0; margin: 0; padding: 0;}
+ul#bImages li.display { display: block; }
+ul#bImages li.hidden { display: none; }
+
+/* causes the transparency */
+.bTrans { /*opacity: .9;*/ position: absolute; width: inherit; height: inherit; }
+
+/* scroller styles */
+.bNav { height: 70px; position: absolute; background: url(img/background.png) repeat 0 0; }
+.bNav .sScrollArea { margin: 0 20px; overflow: hidden; padding: 10px 0; position: relative; }
+.bNav .sScrollArea .sAbsolute { left: 0; overflow: hidden; position: absolute; }
+.bNav .sScrollArea .sAbsolute .sThumbnails { border-width: 1px; border-style: solid; border-color: #2B2B2B; cursor: pointer; float: left; height: 50px; margin: 0 11px 0 0; width: 50px;  }
+.bNav .l { cursor: pointer; height: 20px; left: 0; padding: 23px 4px; position: absolute; top: 0; width: 14px; }
+.bNav .r { cursor: pointer; height: 20px; padding: 23px 4px; position: absolute; right: 0; top: 0; width: 14px; }
+.bNav .l span { background: url('img/arrows.png') no-repeat 0 0; display: block; height: 20px; width: 14px; }
+.bNav .r span { background: url('img/arrows.png') no-repeat 0 -20px; display: block; height: 20px; width: 14px; }
+.bNav .l span:hover { background-position: -14px 0; }
+.bNav .r span:hover { background-position: -14px -20px; }
+
+/* numeric styles */
+.nNav { color: #fff; font: 11px Arial, Helvetica, Georgia, Sans-serif; height: 30px; position: absolute; text-align: center; }
+.nNav .nNumericArea { height: 20px; margin: 0 30px; overflow: hidden; padding: 7px 0 3px 0; position: relative; }
+.nNav .nNumericArea .nAbsolute { left: 0; overflow: hidden; position: absolute; }
+.nNav .nNumericArea .nAbsolute span.nNumbers { cursor: pointer; display: block; float: left; margin: 0 3px 0 0; width: 17px; }
+.nNav .nNumericArea .nAbsolute span.nNumbers:hover { color: #f00; }
+.nNav .l { cursor: pointer; height: 20px; left: 0; padding: 5px 7px; position: absolute; top: 0; width: 14px; }
+.nNav .r { cursor: pointer; height: 20px; padding: 5px 7px; position: absolute; right: 0; top: 0; width: 14px; }
+.nNav .l span { background: url('img/arrows.png') no-repeat 0 0; display: block; height: 20px; width: 14px; }
+.nNav .r span { background: url('img/arrows.png') no-repeat 0 -20px; display: block; height: 20px; width: 14px; }
+.nNav .l span:hover { background-position: -14px 0; }
+.nNav .r span:hover { background-position: -14px -20px; }
+
+/* arrow left & right */
+.lrNav { display: none; }
+.lrNav .l { background: url('img/lrArrows.png') no-repeat -29px 0; cursor: pointer; height: 48px; left: 0; margin-top: -24px; position: absolute; right: 0; top: 50%; width: 28px; }
+.lrNav .r { background: url('img/lrArrows.png') no-repeat 0 0; cursor: pointer; height: 48px; margin-top: -24px; position: absolute; right: 0; top: 50%; width: 27px; }
+
+/* pause / play button */
+.pauseplay { display: none; background: url('img/playpause.png') no-repeat -26px 0; cursor: pointer; height: 27px; margin-top: 0; position: absolute; right: 10px; top: 10px; width: 26px; }
+
+/* preview image */
+.preview { border: 5px solid #2B2B2B; display: none; height: 132px; position: absolute; width: 236px; }
+.preview img { width: 236px; }
+.preview span { display: none; background: url('img/previewArrow.png') no-repeat 0 0; bottom: -18px; height: 17px; left: 50%; margin-left: -17px; position: absolute; width: 34px; }
