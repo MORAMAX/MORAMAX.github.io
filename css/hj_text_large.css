@@ -1,0 +1,102 @@
+.p_nospaceafter { font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; color : #605e5e; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
+p { font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; color : #605e5e; margin-bottom: 4px;}
+ul { font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; color : #605e5e; }
+li { font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; color : #605e5e; }
+.yk_nextsteptext { outline: none; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: underline ; color : #6699CC;  margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
+.sr_bigmap { outline: none; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: underline ; color : #c0af9c;  margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
+
+span.bodyIntro { font-style : normal; font-size : 12px; font-family : arial, verdana, helvetica, sans-serif;  color : #649bc2; }
+
+span.bodyHead { font-style : normal; font-size : 12px; font-weight: bold;  font-family : arial, verdana, helvetica, sans-serif;  color : #c0af9c; }
+span.bodytxt { font-style : normal; font-size : 12px;  line-height: 14px; font-family : arial, verdana, helvetica, sans-serif; color : #605e5e; }
+
+.discreetlink { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none ; color : #6699CC; }
+a.discreetlink:hover { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: underline; font-color : #605e5e; }
+a.discreetlink:link { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none; font-font-color :#605e5e; }
+a.discreetlink:visited { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none; font-font-color : #605e5e; }
+a.discreetlink:active { outline: none; color: #605e5e;}
+
+.presslink { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none ; color : #92C27D; }
+a.presslink:hover { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: underline; font-color : #605e5e; }
+a.presslink:link { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none; font-font-color :#605e5e; }
+a.presslink:visited { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none; font-font-color : #333333; }
+a.presslink:active { outline: none; color: #605e5e;}
+
+
+
+.presslinkgrey { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none ; color : #605e5e; }
+a.presslinkgrey:hover { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: underline; font-color : #605e5e; }
+a.presslinkgrey:link { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none; font-font-color :#605e5e; }
+a.presslinkgrey:visited { outline: none; font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; text-decoration: none; font-font-color : #333333; }
+a.presslinkgrey:active { outline: none; color: #605e5e;}
+
+
+#HEADER	{position: absolute; top: 80px; left: 20px; width: 775px; height: 40px; z-index: 10;}
+
+#SUBHEADER	{position: absolute; top: 120px; left: 20px; width: 775px; height: 20px; z-index: 11;}
+#NEXTSTEPDIV {position: absolute; top: 415px; left: 680px; width: 100px; height: 25px;}
+#BANNER {position: absolute; top: 445px; left: 20px; width: 760px; height: 90px;}
+
+
+#PRESSLINKS {position: absolute; top: 160px; left: 330px; width: 450px; height: 275px; clip:rect(0px,450px,275px,0px); visibility: visible; z-index: 50; overflow: auto;}
+
+#FLASHIMAGE {position: absolute; top: 160px; left: 20px; width: 320px; height: 275px; z-index: 35;}
+#LARGEIMAGE {position: absolute; top: 160px; left: 20px; width: 320px; height: 275px;}
+#SMALLIMAGES {position: absolute; top: 160px; left: 680px; width: 100px; height: 210px; z-index: 4; }
+#contentClip {position: absolute; top: 160px; left: 330px; width: 340px; height: 275px; clip:rect(0px,340px,275px,0px); visibility: visible; overflow: auto;}
+#content { position: absolute; width: 320px;}
+#pressContentClip {position: absolute; top: 160px; left: 330px; width: 340px; height: 172px; clip:rect(0px,340px,172px,0px); visibility: visible; overflow: auto;}
+#pressCClipScroll {position: absolute; top: 335px; left: 330px; width: 340px; height: 100px; clip:rect(0px,340px,100px,0px); visibility: visible; overflow: auto;}
+
+
+#BANNERDETAILS {position: absolute; top: 535px; left: 25px; width: 760px; height: 90px;}
+#MAP {position: absolute; top: 160px; left: 20px; width: 320px; height: 250px; z-index: 1;}
+#MAPDIV {position: absolute; top: 160px; left: 20px; width: 320px; height: 250px; z-index: 0;}
+
+#OTHERSHOPLOCATIONS {position: absolute; top: 160px; left: 440px; width: 340px; height: 255px; clip:rect(0px,340px,255px,0px); visibility: hidden; z-index: 16; overflow: auto;}
+#SHOPDIRECTIONS {position: absolute; top: 160px; left: 440px; width: 340px; height: 240px; clip:rect(0px,340px,240px,0px); visibility: hidden; z-index: 15; overflow: auto;}
+
+#SHOPLOCATIONINDEX {position: absolute; top: 95px; left: 430px; width: 340px; height: 300px; clip:rect(0px,340px,300px,0px); visibility: visible; z-index: 17; overflow: auto;}
+
+
+#SHOPNAV {position: absolute; top: 405px; left: 440px; width: 340px; height: 20px;  z-index: 30; }
+#SHOPLOCATION {position: absolute; top: 160px; left: 440px; width: 340px; height: 255px; clip:rect(0px,540px,340px,0px); visibility: visible; z-index: 17; overflow: auto;}
+
+#PRESSSECTION {position: absolute; top: 160px; left: 330px; width: 470px; height: 275px;}
+
+.shwrmIntro { font-style : normal; font-size : 12px; font-weight: bold;  font-family : arial, verdana, helvetica, sans-serif;  color : #c0af9c; }
+a.shwrmIntro:link { font-style : normal; font-size : 12px; font-weight: bold;  text-decoration: none; font-family : arial, verdana, helvetica, sans-serif;  color : #c0af9c; }
+
+.addressHead { font-style : normal; font-size : 12px; font-weight: bold;  font-family : arial, verdana, helvetica, sans-serif;  color : #c0af9c; }
+.addressBody { font-style : normal; font-size : 12px; font-weight: normal;  font-family : arial, verdana, helvetica, sans-serif;  color : #000000; }
+
+
+#PRESS_HEADER {position: absolute; top: 190px; left: 20px; width: 775px; height: 40px; z-index: 10;}
+#PRESS_BANNER {position: absolute; top: 80px; left: 20px; width: 760px; height: 90px;}
+#OFFER {position: absolute; top: 134px; left: 20px; width: 760px; height: 300px; visibility: visible; z-index: 4; overflow: hidden;}
+#OFFERDETAILS {position: absolute; top: 134px; left: 20px; width: 760px; height: 300px; visibility: hidden; z-index: 4; overflow: hidden;}
+#OFFERIMAGE {position: absolute; top: 305px; left: 20px; width: 760px; height: 136px; z-index: 10;}
+#CURRENTOFFERTEXT {position: absolute; top: 155px; left: 20px; width: 770px; height: 250px;}
+
+span.offerIntro { font-style : normal; font-size : 12px; font-weight: bold;  font-family : arial, verdana, helvetica, sans-serif;  color : #d95d51; }
+a.offerIntro { font-style : normal; font-size : 12px; font-weight: bold;  font-family : arial, verdana, helvetica, sans-serif;  color : #d95d51; }
+
+body { font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; color : #605e5e; overflow: hidden;}
+div.scrolltext { font-style : normal; font-size : 12px;  font-family : a, verdana, helvetica, sans-serif; color : #605e5e; }
+
+.shwrmbody { font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif;  color : #605e5e; }
+a.shwrmbody:link { font-style : normal; font-size : 12px;  text-decoration: none;  font-family : arial, verdana, helvetica, sans-serif;  color : #605e5e; }
+
+
+span.recruitIntro { font-style : normal; font-size : 12px; font-weight: bold;  font-family : arial, verdana, helvetica, sans-serif;  color : #92C27D; }
+a.recruitIntro { font-style : normal; font-size : 12px; font-weight: bold;  font-family : arial, verdana, helvetica, sans-serif;  color : #92C27D; }
+
+#HJClub_contentClip {position: absolute; top: 160px; left: 20px; width: 650px; height: 275px; clip:rect(0px,650px,275px,0px); visibility: visible; z-index: 5; overflow: auto;}
+#HJClub_content { position: absolute; width: 630px;}
+
+
+// a color : #649bc2;
+// a:hover	{  text-decoration:none; outline: none;}
+//  a:link { color: #6699CC;  outline: none;}
+//  a:visited { color: #9B9B9B;  outline: none;}
+//  a:active { color: #B33B77 outline: none;}

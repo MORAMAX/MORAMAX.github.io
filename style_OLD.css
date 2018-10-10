@@ -1,0 +1,103 @@
+body
+{
+background-color:white;
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	line-height: 18px;
+}
+h1 {
+	font-family: "Gill Sans", "Gill Sans MT", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #333333;
+	font-weight: lighter;
+	display: inline;
+}
+.handmade {
+	font-family: "Gill Sans", "Gill Sans MT", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #660000;
+	text-decoration: none;
+}
+
+.newslink {
+	font-family: "Gill Sans", "Gill Sans MT", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #699534;
+	text-decoration: none;
+	text-align: right;
+}
+
+
+#OTHERSHOPLOCATIONS {
+	width: 325px;
+	height: 400px;
+	clip:  rect(0px 325px 400px 0px);
+	visibility: hidden;
+	z-index: 16;
+	overflow: auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#SHOPDIRECTIONS {
+	width: 325px;
+	height: 400px;
+	clip:  rect(0px 325px 400px 0px);
+	visibility: hidden;
+	z-index: 15;
+	overflow: auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#SHOPLOCATIONINDEX {
+	width: 325px;
+	height: 400px;
+	clip:   rect(0px 325px 400px 0px);
+	visibility: visible;
+	z-index: 17;
+	overflow: auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#SHOPNAV {
+	width: 325px;
+	height: 20px;
+	z-index: 30;
+	position: absolute;
+	left: 0px;
+	top: 360px;
+}
+#SHOPLOCATION {
+	width: 325px;
+	height: 400px;
+	clip: rect(0px 325px 400px 0px);
+	visibility: visible;
+	z-index: 17;
+	overflow: auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#mapdetailsholder {
+	position: relative;
+	width: 240px;
+}
+
+.shwrmIntro { font-style : normal; font-size : 12px;  font-family : "Gill Sans", "Gill Sans MT", Verdana, Arial, Helvetica, sans-serif; }
+a.shwrmIntro:link { font-style : normal; font-size : 12px; text-decoration: none; font-family : "Gill Sans", "Gill Sans MT", Verdana, Arial, Helvetica, sans-serif;  color : #3399CC; }
+
+
+body { font-style : normal; font-size : 12px;  font-family : arial, verdana, helvetica, sans-serif; color : #605e5e; overflow: hidden;}
+div.scrolltext { font-style : normal; font-size : 12px;  font-family : "Gill Sans", "Gill Sans MT", Verdana, Arial, Helvetica, sans-serif; color : #605e5e; }
+
+.shwrmbody { font-style : normal; font-size : 12px;  font-family : "Gill Sans", "Gill Sans MT", Verdana, Arial, Helvetica, sans-serif;  color : #605e5e; }
+a.shwrmbody:link { font-style : normal; font-size : 12px;  text-decoration: none;  font-family : "Gill Sans", "Gill Sans MT", Verdana, Arial, Helvetica, sans-serif;  color : #605e5e; }
