@@ -61,6 +61,8 @@ if(typeof wpOnload=='function')wpOnload();
 
 	
 		<div class="clear"></div>
-	</body>
+	<script src="instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+</body>
 	</html>
 	
